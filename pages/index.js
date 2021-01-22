@@ -18,7 +18,7 @@ const Home = () => {
         </h1>
 
         <p className={styles.description}>
-          La mia prima app che finge davvero :D
+          La mia prima app che funge davvero :D
         </p>
         <button onClick={(e) => auth.signinWithGithub()}>SignIn</button>
         <div>{auth?.user?.email}</div>
